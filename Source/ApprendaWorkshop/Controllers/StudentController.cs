@@ -104,6 +104,7 @@ namespace ApprendaWorkshop.Controllers
                 {
                     db.Students.Add(student);
                     db.SaveChanges();
+                    log.Info("Added a new student");
                     return RedirectToAction("Index");
                 }
             }
