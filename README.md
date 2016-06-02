@@ -6,8 +6,8 @@ The application uses standard modern libraries like MVC, Entity Framework and Lo
 
 The application leverages the Log4NET appender bootstrapper to automatically redirect logs to the Apprenda platform.
 
-# Deployment Instructions
-1. Download the code for the application
+# Deployment and Build Instructions
+1. Download the source code for the application
 2. Use Visual Studio to build the solution
 3. You can use the Apprenda Visual Studio Extension or Archive Builder to build an Apprenda Archive
 4. Log in to the Developer Portal and Deploy!

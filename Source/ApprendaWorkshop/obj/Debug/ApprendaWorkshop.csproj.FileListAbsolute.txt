@@ -179,7 +179,6 @@ C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.dll.con
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.pdb
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\Antlr3.Runtime.dll
-C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\AWSSDK.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\EntityFramework.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\EntityFramework.SqlServer.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\log4net.dll
@@ -216,7 +215,6 @@ C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\System.Web.WebPages.Razo
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\System.Xml.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\System.Xml.Linq.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\WebGrease.dll
-C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\AWSSDK.pdb
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\EntityFramework.xml
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\EntityFramework.SqlServer.xml
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\log4net.xml
