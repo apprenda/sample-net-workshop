@@ -4,7 +4,7 @@
     <SettingDefinition name="Private Root" value="ApprendaWorkshop" />
     <SettingDefinition name="Extention Filter" value=".sln;.vb;.cs;.h;.cpp;.obj;.dep;.idb" />
     <SettingDefinition name="Build Config" value="Debug" />
-    <SettingDefinition name="Archive Output Path" value="C:\code\sample-net-workshop\Archive.zip" />
+    <SettingDefinition name="Archive Output Path" value="C:\code\sample-net-workshop\Archive1.zip" />
     <SettingDefinition name="Application Provisioning Script" value="C:\code\sample-net-workshop\Source\ApprendaWorkshop\Apprenda\ApplicationProvisioning_Script.sql" />
     <SettingDefinition name="Tenant Provisioning Script" />
     <SettingDefinition name="Services" value="" />

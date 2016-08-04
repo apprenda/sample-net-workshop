@@ -232,3 +232,5 @@ C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\Newtonsoft.Json.xml
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.csprojResolveAssemblyReference.cache
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.pdb
+C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\Apprenda.Utils.dll
+C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\SaaSGrid.API.dll

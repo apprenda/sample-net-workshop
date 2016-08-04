@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using ApprendaWorkshop.DAL;
 using ApprendaWorkshop.ViewModels;
 using System.Reflection;
+using Apprenda.SaaSGrid;
 
 namespace ApprendaWorkshop.Controllers
 {
@@ -18,6 +19,17 @@ namespace ApprendaWorkshop.Controllers
         public ActionResult Index()
         {
             log.Info("Entering Home Index");
+
+            
+            if (UserContext.Instance == null || UserContext.Instance.CurrentUser == null)
+            {
+                ViewBag.UserName = "Hello!";
+            }
+            else
+            {
+                ViewBag.UserName = string.Format("{0} {1}", UserContext.Instance.CurrentUser.FirstName, UserContext.Instance.CurrentUser.LastName); 
+            } 
+            
             return View();
         }
 
