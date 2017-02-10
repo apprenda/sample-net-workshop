@@ -40,32 +40,43 @@ namespace ApprendaWorkshop.Controllers
 
             ViewBag.CurrentFilter = searchString;
 
-            var students = from s in db.Students
-                           select s;
-            if (!String.IsNullOrEmpty(searchString))
+            try
             {
-                students = students.Where(s => s.LastName.Contains(searchString)
-                                       || s.FirstMidName.Contains(searchString));
+                var students = from s in db.Students
+                               select s;
+
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    students = students.Where(s => s.LastName.Contains(searchString)
+                                           || s.FirstMidName.Contains(searchString));
+                }
+                switch (sortOrder)
+                {
+                    case "name_desc":
+                        students = students.OrderByDescending(s => s.LastName);
+                        break;
+                    case "Date":
+                        students = students.OrderBy(s => s.EnrollmentDate);
+                        break;
+                    case "date_desc":
+                        students = students.OrderByDescending(s => s.EnrollmentDate);
+                        break;
+                    default:  // Name ascending 
+                        students = students.OrderBy(s => s.LastName);
+                        break;
+                }
+
+                int pageSize = 3;
+                int pageNumber = (page ?? 1);
+                return View(students.ToPagedList(pageNumber, pageSize));
+
             }
-            switch (sortOrder)
+            catch (Exception ex)
             {
-                case "name_desc":
-                    students = students.OrderByDescending(s => s.LastName);
-                    break;
-                case "Date":
-                    students = students.OrderBy(s => s.EnrollmentDate);
-                    break;
-                case "date_desc":
-                    students = students.OrderByDescending(s => s.EnrollmentDate);
-                    break;
-                default:  // Name ascending 
-                    students = students.OrderBy(s => s.LastName);
-                    break;
+                log.ErrorFormat("There was an error retrieving students from the database. {0}", ex.Message);
+                return View();
             }
 
-            int pageSize = 3;
-            int pageNumber = (page ?? 1);
-            return View(students.ToPagedList(pageNumber, pageSize));
         }
 
 
