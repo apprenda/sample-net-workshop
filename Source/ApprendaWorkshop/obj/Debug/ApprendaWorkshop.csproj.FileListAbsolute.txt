@@ -175,7 +175,6 @@ C:\code\networkshopsample\ApprendaWorkshop\bin\Newtonsoft.Json.xml
 C:\code\networkshopsample\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.csprojResolveAssemblyReference.cache
 C:\code\networkshopsample\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.dll
 C:\code\networkshopsample\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.pdb
-C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.dll.config
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.pdb
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\Antlr3.Runtime.dll
