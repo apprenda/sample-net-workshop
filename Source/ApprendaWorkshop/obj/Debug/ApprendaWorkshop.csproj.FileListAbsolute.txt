@@ -234,3 +234,4 @@ C:\code\sample-net-workshop\Source\ApprendaWorkshop\obj\Debug\ApprendaWorkshop.p
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\Apprenda.Utils.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\SaaSGrid.API.dll
 C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\SaaSGrid.API.xml
+C:\code\sample-net-workshop\Source\ApprendaWorkshop\bin\ApprendaWorkshop.dll.config
